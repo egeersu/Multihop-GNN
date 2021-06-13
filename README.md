@@ -1,5 +1,5 @@
 # Multihop-GNN
-Multi-hop Question Answering via Graph Neural Model (MLP Project)
+Multi-hop Question Answering via Graph Neural Model (Term Research Project for Machine Learning Practical @UoE)
 
 ## Environment
 - **Python                    3.6.13**
@@ -22,6 +22,6 @@ Multi-hop Question Answering via Graph Neural Model (MLP Project)
 
 ## How to run
 - Step 1. Generation for the graph for train & dev set
-  - run `python entity_graph_gen.py --project-address --mode --number-of-data`, e.g., `python entity_graph_gen.py --project-address=/home/qyifu/ --graph-gen-mode=train --graph-gen-size=10 --dataset=medhop` will create 10 entity graphs from training set 1-10 samples in medhop. 
+  - run `python entity_graph_gen.py --project-address --mode --number-of-data`, e.g., `python entity_graph_gen.py --project-address=/path/to/file --graph-gen-mode=train --graph-gen-size=10 --dataset=medhop` will create 10 entity graphs from training set 1-10 samples in medhop. 
 - Step 2. Train the model
   - run `python train.py --project-address`
