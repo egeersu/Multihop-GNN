@@ -1,7 +1,9 @@
 
 
 ## Paper
-[Position-Aware Neural Attentive Graph Networks for Question Answering](https://egeersu.github.io/papers/multihop.pdf)
+[Position-Aware Neural Attentive Graph Networks for Question Answering (2021)](https://egeersu.github.io/papers/multihop.pdf)
+
+**Authors:** *Ege Ersü, Yifu Qiu, Anda Zhou*
 
 ## Code
 [GitHub Repository](https://github.com/egeersu/Multihop-GNN)
