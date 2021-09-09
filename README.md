@@ -1,4 +1,10 @@
-[Paper: Position-Aware Neural Attentive Graph Networks for Multi-hop Question Answering](https://egeersu.github.io/papers/multihop.pdf){: .btn}
+
+
+## Paper
+[Position-Aware Neural Attentive Graph Networks for Question Answering](https://egeersu.github.io/papers/multihop.pdf)
+
+## Code
+[Repository](https://github.com/egeersu/Multihop-GNN)
 
 ## Abstract
 
