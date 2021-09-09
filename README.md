@@ -1,11 +1,10 @@
 # Position-Aware Neural Attentive Graph Networks for Multi-hop Question Answering
 
-[Click Here for Paper]("https://egeersu.github.io/papers/multihop.pdf")
-[Click Here for Google]("https://www.google.com/maps")
+[Click Here for Paper](https://egeersu.github.io/papers/multihop.pdf)({: .btn })
 
 ## Abstract
 
-Recently there has been considerable interest in applying graph neural networks (GNN) to multi-hop question answering (QA) tasks, as graph representations can explicitly express rich dependencies in language. However, graph representations suffer from the loss of sequential information and the difficulty of representing global semantic information. In this work, we propose the **query-attention** mechanism to enhance the GNN-QA system by utilizing both global and local contextual information. We also explore injecting the positional information into the graph to complement the sequential information. Our experiments are conducted on the WikiHop dataset to allow direction comparison with Entity Relational-Graph Convolutional Networks. Our contributions identify the existence of *position bias* in the dataset and we conduct ablation studies to confirm that our proposed modules improve the generalization accuracy by *1.43%*.
+Recently there has been considerable interest in applying [Graph Neural Networks (GNN)](https://distill.pub/2021/gnn-intro/) to Multi-hop Question Answering (QA) tasks, as graph representations can explicitly express rich dependencies in language. However, graph representations suffer from the loss of sequential information and the difficulty of representing global semantic information. In this work, we propose the **query-attention** mechanism to enhance the GNN-QA system by utilizing both global and local contextual information. We also explore injecting the positional information into the graph to complement the sequential information. Our experiments are conducted on the WikiHop dataset to allow direction comparison with [Entity Relational-Graph Convolutional Networks](https://arxiv.org/pdf/1808.09920.pdf). Our contributions identify the existence of *position bias* in the dataset, and we further conduct ablation studies to confirm that our proposed modules improve the generalization accuracy by 1.43%.
 
 ## Environment
 - **Python**                  3.6.13
