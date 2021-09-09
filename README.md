@@ -1,5 +1,9 @@
 # Multihop-GNN
-Multi-hop Question Answering via Graph Neural Model (Term Research Project for Machine Learning Practical @UoE)
+
+[Click Here for Paper]('https://egeersu.github.io/papers/multihop.pdf')
+
+## Abstract
+Recently there has been considerable interest in applying graph neural networks (GNN) to multi-hop question answering (QA) tasks, as graph representations can explicitly express rich dependencies in language. However, graph representations suffer from the loss of sequential information and the difficulty of representing global semantic information. In this work, we propose the **query-attention** mechanism to enhance the GNN-QA system by utilizing both global and local contextual information. We also explore injecting the positional information into the graph to complement the sequential information. Our experiments are conducted on the WikiHop dataset to allow direction comparison with Entity Relational-Graph Convolutional Networks. Our contributions identify the existence of *position bias* in the dataset and we conduct ablation studies to confirm that our proposed modules improve the generalization accuracy by *1.43%*.
 
 ## Environment
 - **Python                    3.6.13**
